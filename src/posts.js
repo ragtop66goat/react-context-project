@@ -1,6 +1,6 @@
 let posts = [];
 
 export const getPosts = async (post) => {
-  posts = posts.push(post);
+  posts = [...posts, post];
   return posts;
 };

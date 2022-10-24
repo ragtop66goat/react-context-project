@@ -26,7 +26,9 @@ export function Body() {
     <>
       <h1>Body start</h1>
       <h5>{user?.id}</h5>
-      <h3>Posts: {posts}</h3>
+      {posts.map((post) => {
+        return <>{post}</>;
+      })}
       <div>
         <input
           type="text"
