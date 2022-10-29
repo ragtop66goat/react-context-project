@@ -9,6 +9,8 @@ export function Memo() {
   const styleTheme = {
     backgroundColor: dark ? "black" : "white",
     color: dark ? "white" : "black",
+    maxWidth: "25%",
+    marginLeft: "37%",
   };
 
   return (
